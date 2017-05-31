@@ -1,0 +1,274 @@
+/* top line */
+.head-emblem {
+    font-size:20px;
+    color:white;
+    height: 48px;
+    width:48px;
+    background-color:red;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.head-text{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-left:50px;
+}
+.head-logo{
+    margin-right:50px;
+}
+.head-title{
+    padding:0 10px;
+    font-size:20px;
+    border-right:4px solid grey;
+}
+.head-desc{
+    margin: 0 10px;
+}
+.icons{
+    font-size:30px;
+    color:white;
+    height:48px;
+    width:48px;
+    background-color:lightgrey;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 10px;
+}
+.head-follow{ 
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    min-width:1000px;
+}
+.line{
+    height:2px;
+    width:90%;
+    background-color:lightgrey;
+    border-radius:50%;
+    display:flex;
+    align-content:center;
+    margin:20px 5%;
+}
+.first{
+    width:100%;
+    min-width:1000px;
+}
+/* title and picture */
+.intro{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:50px;
+}
+h2{
+    margin:0;
+}
+.mountain{
+    background-image:url(pics/mountain.jpg);
+    background-size:cover;
+    background-position: center;
+    height:300px;
+    margin:20px 50px;
+    border-radius:2%;
+}
+/* three side by side */
+.three{
+    display:flex;
+    justify-content:space-between;
+    align-content:flex-start;
+}
+.three1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-left:50px;
+}
+.three2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0 50px;
+}
+.three3{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-right:50px;
+}
+.pic{
+    font-size:96px;
+    color:red;
+}
+
+.title{
+    font-size:32px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+h5{
+    margin:20px 0;
+}
+.line2{
+    height:4px;
+    width:40px;
+    background-color:darkgrey;
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+}
+
+.desc{
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+}
+/* Info */
+.second{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.second-pic{
+    background-image:url(pics/mountain2.jpg);
+    background-size:cover;
+    background-position:center;
+    height:400px;
+    width:400px;
+    border-radius:5%;
+    margin:0 50px;
+}
+.second-text{
+    height:400px;
+    max-width: 600px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-left: 50px;
+    
+}
+.text2{
+    font-size:30px;
+    margin:0;
+}
+.text2p {
+    font-size:25px;
+    margin:10px 0;
+}
+/* Info 2 */
+.third-btn{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.third-left{
+    max-width:600px;
+    margin-left:50px;
+    padding-right:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-size:30px;
+}
+.third-text{
+    margin:0 10px;
+}
+
+.btn{
+    color:white;
+    background-color:red;
+    border-radius:5%;
+    padding:10px;
+}
+.btn-or{
+    margin:0 20px;
+}
+.btn-text{
+    color:red;
+}
+.third{ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.third-right{
+    margin:0 50px;
+}
+.third-pic{
+    background-image:url(pics/hiking.jpg);
+    background-size:cover;
+    background-position:center;
+    height:400px;
+    width:400px;
+    border-radius:5%;
+}
+/* Twitter start */
+.twitter{
+    height:400px;
+    background-color: lightgrey;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    margin-top:20px;
+}
+.twitter-bird{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    height:50px;
+    width:50px;
+    color:skyblue;
+    margin-top:75px;
+    font-size:128px;
+}
+/* Footer stuf */
+.footer{
+    min-width:1000px;
+    width:100%;
+
+}
+.foot-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.foot-follow{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    margin:10px 20px;
+}
+.foot-note{
+    text-align:center;
+}
+.search-btn{
+    background-color:red;
+    color:white;
+    border-radius:5%;
+}
+.foot-pic{
+    height:300px;
+    background-image:url(pics/background.jpg);
+    background-size: cover;
+    background-position:center;
+    filter:grayscale(100%);
+}
